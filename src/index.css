@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply scroll-smooth
+    }
+    
+    li{
+        @apply p-3 text-sm font-Bask text-[#bf9c40] hover:text-[#e0cc9b] duration-500
+
+    }
+    h1{
+        @apply font-Bask text-[#bf9c40] p-3 text-xl
+    }
+}
